@@ -1,0 +1,109 @@
+/* .container {
+    width: 100%;
+    
+} */
+
+.linkbtn{
+    background-image: url('../assets/b1_normal.png');
+    background-size: cover;
+    width: 145px;
+    height: 100px;  
+    text-align: center;
+    position: relative;
+    bottom: 12px;
+    margin: 0px 37px;
+    /* color:rgb(166, 14, 14); */
+    /* text-shadow: -1px -1px 3px white; */
+}
+
+.linkbtn p{
+    font-family: 'enchanted_landregular';
+    
+}
+
+.linkbtn:hover{
+    background-image: url('../assets/b1_roll_over.png');
+}
+.linkbtn:active{
+    background-image: url('../assets/b_down.png');
+}
+
+.btnTitle{
+    position: relative;
+    bottom: -38px;
+    color: rgb(176, 134, 67);
+    text-shadow: 1px 1px 2px rgb(5, 5, 5);
+    letter-spacing: 1.5px;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    font-weight: bold;
+}
+.btnPre{
+    position: relative;
+    
+
+}
+
+.astral{
+    position: relative;
+    bottom: -38px;  
+    color: rgb(176, 134, 67);
+    text-shadow: 1px 1px 2px rgb(5, 5, 5);
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    font-weight: bold;
+}
+a{
+    text-decoration: none
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.default {
+    
+    background-image: url("../assets/banner_bg.jpg");
+    
+    
+}
+
+.media-nav {
+    background-image: url('../assets/rawrship.jpg');
+    background-position-y: 0px;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    
+    background-image: url("../assets/top_nav_bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+    
+}
+
+
+.gameLogo{
+
+}
+
+
+
+
+@font-face {
+    font-family: 'enchanted_landregular';
+    src: url('../fonts/webfontkit-20190908-020718/enchanted_land-webfont.woff2') format('woff2'),
+         url('../fonts/webfontkit-20190908-020718/enchanted_land-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

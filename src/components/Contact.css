@@ -1,0 +1,111 @@
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('../assets/leather_bgA.jpg');
+    
+}
+
+.barSection {
+    width: stretch;
+    
+}
+
+.separator {
+    margin-top: 10%;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50%;
+}
+
+.inputBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#message {
+    height: 140px;
+}
+
+label {
+    color: #75623a;
+    text-shadow: 2px 2px black;
+    font-size: 36px;
+}
+
+textarea {
+    resize: none;
+    padding: 2px;
+    padding-left: 5px;
+    width: 200%;
+    height: 30px;
+    border-radius: 3px;
+    border-color: #C4853A;
+    background-color: black;
+    color: #C4853A;
+    text-shadow: 2px 2px black;
+}
+
+input {
+    padding: 2px;
+    padding-left: 5px;
+    width: 200%;
+    height: 30px;
+    border-radius: 3px;
+    border-color: #C4853A;
+    background-color: black;
+    color: #C4853A;
+    text-shadow: 2px 2px black;
+}
+
+.dkLogo {
+    width: 150%;
+}
+
+.submitButton {
+    margin-top: 20%;
+}
+
+.submitButton:hover {
+    color: brown;
+    background-color: rgb(160, 150, 77);
+    height: 105%;
+    width: 102%;
+}
+
+.barSectionBottom {
+    margin-top: 9%;
+    width: stretch;
+}
+
+.darkstarLogo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    color: #C4853A;
+    font-size: 36px;
+}
+
+.darkstarText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.darkstarText h2 {
+    
+    color: #75623a;
+    text-shadow: 2px 2px black;
+    font-size: 36px;
+}
+
+.darkstarText p {
+    font-size: 20px;
+    color: grey;
+    text-shadow: -1px 0px 1px #C4853A;
+}
